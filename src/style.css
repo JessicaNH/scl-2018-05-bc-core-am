@@ -1,1 +1,31 @@
 /* Acá va tu código */
+.first-header {
+    text-align: center;
+}
+
+.offset{
+    text-align: center;
+    
+    
+}
+
+
+.first-section {
+    text-align: center;
+
+}
+.decod{
+    display: inline-block;
+    margin: 10% 30% 5% 0%;
+    
+}
+.code {
+    display: inline-block;
+}
+body {
+    background-image: url(../src/img/pexels-photo-796606.jpeg)
+}
+#displace{
+    height: 30%;
+}
+
