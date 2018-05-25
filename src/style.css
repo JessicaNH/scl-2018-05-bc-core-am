@@ -5,6 +5,8 @@
 
 .offset{
     text-align: center;
+    display: block;
+    width: 3px;
     
     
 }
@@ -16,16 +18,26 @@
 }
 .decod{
     display: inline-block;
-    margin: 10% 30% 5% 0%;
+    margin: 10% 0.1% 5% 3%;
+    
     
 }
 .code {
     display: inline-block;
+    margin-left: 15%;
+    margin-right: 10%;
+
 }
 body {
     background-image: url(../src/img/pexels-photo-796606.jpeg)
 }
 #displace{
     height: 30%;
+}
+button{
+  position: relative;
+  top: -10px;
+  
+ 
 }
 
