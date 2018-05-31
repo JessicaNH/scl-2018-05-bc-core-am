@@ -5,9 +5,7 @@
 
 .offset{
     text-align: center;
-    display: block;
-    width: 3px;
-    
+
     
 }
 
@@ -19,6 +17,7 @@
 .decod{
     display: inline-block;
     margin: 10% 0.1% 5% 3%;
+   
     
     
 }
@@ -26,17 +25,17 @@
     display: inline-block;
     margin-left: 15%;
     margin-right: 10%;
-
 }
 body {
-    background-image: url(../src/img/pexels-photo-796606.jpeg)
+    background-image: url(../src/img/pexels-photo-796606.jpeg);
+    background-repeat: no-repeat;
 }
 #displace{
     height: 30%;
 }
 button{
-  position: relative;
-  top: -10px;
+  
+  
   
  
 }
