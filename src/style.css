@@ -1,42 +1,75 @@
 /* Acá va tu código */
 .first-header {
-    text-align: center;
+  text-align: center;
+  padding: 5%;
 }
 
 .offset{
-    text-align: center;
+  text-align: center;
+  padding: 2%;
+  
+  margin: 2% 2% 3% 2%;
 
-    
 }
 
 
 .first-section {
-    text-align: center;
+  text-align: center;
 
 }
 .decod{
-    display: inline-block;
-    margin: 10% 0.1% 5% 3%;
+  display: inline-block;
+  margin: 10% 0.1% 5% 3%;
    
     
     
 }
 .code {
-    display: inline-block;
-    margin-left: 15%;
-    margin-right: 10%;
+  display: inline-block;
+  margin-left: 15%;
+  margin-right: 10%;
 }
 body {
-    background-image: url(../src/img/pexels-photo-796606.jpeg);
-    background-repeat: no-repeat;
+  background-image: url(../src/img/4679c43e-11df-4129-8b00-0f8c0b39570e.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
 }
 #displace{
-    height: 30%;
+  height: 30%;
 }
-button{
-  
+button {
+  padding: 2%;
+  border-radius: 7px;
+  background-color: antiquewhite;
+  margin: 2% 2% 3% 2%;
+}
+button:hover{
+  background-color:pink;
+  color:white;
+
+}
+  h1{
+    font-family: 'Bitter', serif;
+    color: rgba(41, 35, 35, 0.795);
+    font-size: 60px;
+    
+  }
+
+  h2{
+    font-family: 'Bitter', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Nanum Pen Script', cursive;
+    color: rgba(41, 35, 35, 0.795);
+    font-size: 30px;
+    
+  }
+  .text{
+    font-size: 30px;
+  }
   
   
  
-}
+
 

@@ -4,6 +4,12 @@
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bitter|Lobster|Nanum+Pen+Script" rel="stylesheet">
+  
+  
+  
+  
 </head>
 <body>
 
@@ -11,13 +17,14 @@
   <!-- creando maqueta -->
   <header class="first-header">
      <h1>Cifrado Cesar</h1>
-     <H2>Mensaje secreto</H2>
+     <h2>Mensaje secreto</h2>
   </header>
   <section class="first-section">
       <div class="offset">
-         <input id="displace" type="text" placeholder="offset">
+         <input id="displace" type="number" placeholder="offset">
       </div>
-<!-- creando entrada de texto para decifrar -->
+      <div id="root" class="text"><em> Descubre el Cifrado...</em> </div>
+            <!-- creando entrada de texto para decifrar -->
       <div class="decod">
         <textarea id="message" cols="50" placeholder="Ingresa un texto"></textarea>
       </div>
@@ -28,7 +35,7 @@
       
     
   </section>
-  <div id="root"></div>
+  
 
 
 
